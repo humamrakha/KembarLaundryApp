@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="300dp"
+    android:layout_height="140dp"
+    android:background="@drawable/shapelogin"
+    tools:context=".User.Activity_Hasil_Resi_Ozzy"
+    android:layout_gravity="center">
+
+
+    <TextView
+        android:id="@+id/txt_hasil_resi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"
+        android:text="KL010101O"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/txt_hasil_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_hasil_resi"
+        android:layout_marginTop="0dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"
+        android:text="Ozzy Osbourne"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_hasil_tlp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_hasil_nama"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="1dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"
+        android:text="+6281234567890"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_hasil_status1"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_hasil_tlp"
+        android:layout_marginTop="0dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"
+        android:text="Status"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_hasil_status2"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_hasil_tlp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toEndOf="@+id/txt_hasil_status1"
+        android:layout_toRightOf="@+id/txt_hasil_status1"
+        android:paddingLeft="10dp"
+        android:text="Selesai"
+        android:textColor="#0CD514"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_hasil_biaya1"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_hasil_status1"
+        android:layout_marginTop="0dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"
+        android:text="Biaya"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_hasil_biaya2"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_hasil_status1"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toEndOf="@+id/txt_hasil_status1"
+        android:layout_toRightOf="@+id/txt_hasil_status1"
+        android:paddingLeft="10dp"
+        android:text="Rp.32.500"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
